@@ -1,5 +1,6 @@
-import React from "react";
-import './App.css';
+import React from "react"
+import './App.css'
+import Steps from "./components/Steps.js"
 
 const tempMin = -20
 const tempMax = 40
@@ -17,8 +18,11 @@ class App extends React.Component {
           <p>Temperature : {tempMin}</p>
           <p>Steps : {stepsMin}</p>
         </div>
+        <div className="row">
+          <Steps />
+        </div>
       </div>
-    );
+    )
   }
 }
 
