@@ -1,0 +1,11 @@
+.box-pairs {
+    background-color: #cccccc;
+}
+.box-impairs {
+    background-color: #aaaaaa;
+}
+.box-impairs, .box-pairs {
+    height: 190px;
+    padding: 8px;
+    text-align: center;
+}
